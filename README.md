@@ -19,13 +19,13 @@
   por optar a criação de um caminho simples e de fácil compreensão para quem vai executar o projeto em sua máquina.
   
   
-  # Tutorial com imagens do BOTS3
+  # Tutorial com imagens -- > BOTS3
   
   ## Como executar o projeto? 
   
   Primeiro de tudo, para que seja possível você ver na prática, é preciso acessar o site alvo do bot. [***Click aqui***](https://www.ts3.lu/registro.php "Site do TS3LU") , e é claro fazer uma conta. É bem rápido, nem pede validação de email.
   
-  ## Para facilitar uma estrutura linear de tutorial, vou fazer por passos.
+  ## Para facilitar, dividi o tutorial em uma estrutura linear em 5 passos + dicas.
   
   Os pré-requisitos para execução do projeto são:
   
