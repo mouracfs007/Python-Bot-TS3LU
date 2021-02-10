@@ -25,7 +25,7 @@
   
   Primeiro de tudo, para que seja possível você ver na prática, é preciso acessar o site alvo do bot. [***Click aqui***](https://www.ts3.lu/registro.php "Site do TS3LU") , e é claro fazer uma conta. É bem rápido, nem pede validação de email.
   
-  ## Para facilitar, dividi o tutorial em uma estrutura linear em 5 passos + dicas.
+  ## Para facilitar, dividi o tutorial em uma estrutura linear em 4 passos + dicas.
   
   Os pré-requisitos para execução do projeto são:
   
