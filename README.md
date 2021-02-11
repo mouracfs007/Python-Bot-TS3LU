@@ -55,7 +55,7 @@
 
 Link para o download do GeckoDriver : https://github.com/mozilla/geckodriver/releases
 
-No código padrão ao invés de ser: (O código mudará caso você venha por optar a usar o geckodriver ). 
+No código padrão ao invés de ser: 
 
 ```
  browser = webdriver.Chrome()
@@ -65,6 +65,8 @@ Ficará assim ....
 ```
 browser = webdriver.Firefox()
 ```
+
+(O código mudará caso você venha por optar a usar o geckodriver ).
 
 
 ### Passo 3º: 
