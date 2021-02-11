@@ -4,26 +4,26 @@
 
 # Sobre o projeto: BOT
    ***Salve, Devs***. Venho trazer humildemente pra vocês a criação desse script bem legal e super divertido, 
-  que você consegue ver na prática como que funciona o mundo da programação.
+  que você vai conseguir ver na prática como que funciona o mundo da programação.
   
-  Pois bem, este bot ( ou script ) foi criado por mim, para atender algumas necessidades de tarefas repetitivas e super irritantes que eu deveria fazer todos os dias,
+  Pois bem, este bot ( ou script ) foi criado por mim, para atender algumas necessidades de tarefas repetitivas e super irritantes que eu fazia todos os dias,
   e o que eu fiz? eu simplesmente automatizei o processo apenas com 1 click.
   
   Na época em que foi criado o bot, eu simplesmente não tinha nenhuma experiência com o Python, não conhecia muito bem suas funções, seus tipos primitivos, sua estrutura etc.
-  Eu apenas pesquisei e de forma autodidata consegui uma resolução para que eu automatizasse o processo. Lembrando sempre de ter uma base sólida de lógica de programação,
-  com ela você pode aprender qualquer linguagem de programação, seja ela para aplicações WEB, desktop ou Mobile.
+  Eu apenas pesquisei e de forma autodidata consegui uma resolução para que eu automatizasse o processo. Lembrando de sempre ter uma base sólida de lógica de programação,
+  com ela você é capaz de aprender qualquer linguagem de programação, seja ela para aplicações WEB, desktop ou Mobile.
   
-  ***Uma observação:*** O python é uma linguagem de programação feita para quem nunca programou e ajuda a facilitar as nossas tarefas diarias com sua enorme gama de bibliotecas e frameworks.
-  Quando eu criei este Script, quis criar justamente sem funções, sem estruturas de repetições para mostrar quão é possível sim construir uma resolução
+  ***Uma observação:*** O python é uma linguagem de programação feita para quem nunca programou,ela nos ajuda a facilitar as nossas tarefas diarias, e que tem como seu forte sua enorme gama de bibliotecas e frameworks.
+  Quando eu criei este Script, quis criar justamente sem funções, sem estruturas de repetições para mostrar o quão é possível sim construir uma resolução
   por um caminho simples para resolver determinado problema. Com o conhecimento que tenho hoje, poderia muito bem utilizar funções, como def, classes etc, mas resolvi
-  por optar a criação de um caminho simples e de fácil compreensão para quem vai executar o projeto em sua máquina.
+  optar por um caminho simples e de fácil compreensão para quem vai executar o script (bot ) em sua máquina.
   
   
   # Tutorial com imagens -- > BOTS3
   
   ## Como executar o projeto? 
   
-  Primeiro de tudo, para que seja possível você ver na prática, é preciso acessar o site alvo do bot. [***Click aqui***](https://www.ts3.lu/registro.php "Site do TS3LU") , e é claro fazer uma conta. É bem rápido, nem pede validação de email.
+  Primeiro de tudo, para que seja possível você ver na prática como funciona o bot, é preciso acessar o site alvo do bot. [***Click aqui***](https://www.ts3.lu/registro.php "Site do TS3LU"). E também é claro, fazer uma conta. É bem rápido, nem pede validação de email.
   
   ## Para facilitar, dividi o tutorial em uma estrutura linear em 4 passos + dicas.
   
@@ -31,30 +31,31 @@
   
   ### Passo 1º:
   
-- Baixar o Python através so seu site oficial, clicando neste link : https://www.python.org/downloads/
-- Não esqueça de adicionar o Python ao PATH quando estiver instalando ele. Isso vai adicionar a uma variável de ambiente no seu SO.
+- Baixar o Python através do seu site oficial, clicando neste link : https://www.python.org/downloads/
+- Não esqueça de adicionar a opção de add ao PATH quando estiver instalando o Python. Isso vai adicionar uma variável de ambiente nas configurações de seu SO.
 
 ### Passo 2º:
 
-- Baixar o Chrome WebDriver através do endereço : https://chromedriver.chromium.org/downloads
-- Verificar qual é a versão do seu navegador Chrome
+- Baixar o Chrome WebDriver através do endereço :https://chromedriver.chromium.org/downloads
+
+- Verificar qual a versão do seu navegador Chrome
 ### Como ver a versão do meu navegador ? 
 ![Chrome](https://github.com/mouracfs007/Python-Bot-TS3LU/blob/main/Imagens%20-Tutorial%20BOT%20Ts3LU/drive%203.png "Chrome Webdriver")
 
-### Baixar o exe com a versão compatível do seu navegador
+### Baixar o exe do ChromeWebDriver com a versão compatível de seu navegador
 ![Chrome-exe](https://github.com/mouracfs007/Python-Bot-TS3LU/blob/main/Imagens%20-Tutorial%20BOT%20Ts3LU/drive%201.png "Chrome Webdriver")
 
-### Selecionar o arquivo para seu tipo de sistema operacional
+### Baixar o arquivo de acordo com o seu tipo de sistema operacional
 ![Chrome-SO](https://github.com/mouracfs007/Python-Bot-TS3LU/blob/main/Imagens%20-Tutorial%20BOT%20Ts3LU/drive%202.png "Chrome Webdriver")
 
 ### Após baixar o exe do WebDriver, coloque-o dentro da pasta do seu projeto:
 ![Chrome-project](https://github.com/mouracfs007/Python-Bot-TS3LU/blob/main/Imagens%20-Tutorial%20BOT%20Ts3LU/drive%204.png "Chrome Webdriver")
 
-***Observação***: Também existe uma outro alternativa para automatizar o navegador, se chama ***geckoDriver***, funciona para navegadores mozilla.
+***Observação***: Também existe uma outro alternativa para automatizar outro tipo de navegador, se chama ***geckoDriver***, funciona para navegadores mozilla.
 
 Link para o download do GeckoDriver : https://github.com/mozilla/geckodriver/releases
 
-No código padrão ao invés de ser 
+No código padrão ao invés de ser: (O código mudará caso você venha por optar a usar o geckodriver ). 
 
 ```
  browser = webdriver.Chrome()
@@ -79,7 +80,7 @@ Link para o download do Vs Code: https://code.visualstudio.com/download
 
 ### Instalando a biblioteca selenium
 
-- Abra o seu CMD (Prompt de comandos ) , ou PowerShell
+- Abra o seu CMD (Prompt de comandos ) ou PowerShell
 
 Digite os comandos:
 ```
@@ -97,13 +98,13 @@ pip install --upgrade pip
 
 Espere a instalação dos pacotes e feche o seu CMD. É um processo bem rápido.
 
-Após instalar todas as dependências, abra o Vs Code, crie um arquivo .py, dentro da pasta do seu projeto, ( Por exemplo: bots.py ), copie e cole o código python dentro desse arquivo e o salve.
+Após instalar todas as dependências, abra o Vs Code, crie um arquivo .py,e dentro da pasta do seu projeto, ( Por exemplo: bots.py ), copie e cole o código python dentro desse arquivo, logo em seguida, salve o arquivo.
 
 ## Seu projeto deverá ficar dessa forma:
 
 ![Project in Python](https://github.com/mouracfs007/Python-Bot-TS3LU/blob/main/Imagens%20-Tutorial%20BOT%20Ts3LU/folder%20bots3.png "Pasta do projeto")
 
-## E é isso aí, finalizamos nosso tutorial. Espero que tenha gostado de verdade e que eu tenha sido o mais didático possível.
+## E é isso aí, ufa..curtiu? finalizamos nosso tutorial. Espero vocês que tenham gostado de verdade, e que eu tenha sido o mais didático possível.
 
 **Veja também algumas extensões que podem te ajudar na hora de codar em Python (Extensões de Vs Code )**
 
