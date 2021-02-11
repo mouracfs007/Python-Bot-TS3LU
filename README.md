@@ -135,8 +135,9 @@ Após instalar todas as dependências, abra o Vs Code, crie um arquivo .py,e den
 
 ### Clicando em " renovar 2 dias (gratis ) " para renovar a licença do servidor
 ![Page 5](https://github.com/mouracfs007/Python-Bot-TS3LU/blob/main/Imagens%20-Tutorial%20BOT%20Ts3LU/page%205.png "Finalizando a requisição")
-
   
-  _By:_ Daniel Moura
+  Quaisquer dúvidas , troca de ideias meu e-mail de contato é : danielmourajuve21@gmail.com
+  
+   _By:_ Daniel Moura
   
   [![NPM](https://img.shields.io/npm/l/react)](https://github.com/mouracfs007/Python-Bot-TS3LU/blob/main/LICENSE)
